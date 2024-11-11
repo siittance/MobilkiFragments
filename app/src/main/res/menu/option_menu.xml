@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/settings"
+        android:title="Просто существую"/>
+
+    <item android:id="@+id/about"
+        android:title="Доп">
+
+        <menu>
+            <group android:id="@+id/fragments">
+                <item android:id="@+id/frag_first"
+                    android:title="1"/>
+                <item android:id="@+id/frag_second"
+                    android:title="2"/>
+            </group>
+        </menu>
+
+    </item>
+</menu>
